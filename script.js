@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // array of images for computer choices
     const computerChoices = [
-        { choice: 'rock', image: '/img/rock.PNG' },
-        { choice: 'paper', image: '/img/paper.PNG' },
-        { choice: 'scissors', image: '/img/scissors.PNG' }
+        { choice: 'rock', image: 'img/rock.PNG' },
+        { choice: 'paper', image: 'img/paper.PNG' },
+        { choice: 'scissors', image: 'img/scissors.PNG' }
     ];
     
     // add click event to each choice
