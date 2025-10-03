@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Name: Robertson Siu
+  Date: 10.03.2025
+  CSC 372-01
+
+  This is my rock paper scissors game. It allow you to chose rock, paper, or scissors and play against the computer. 
+  The computer will randomly choose rock, paper, or scissors after 3 seconds.
+  The winner will be displayed after the computer makes its choice.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="user-choice">
+        <div class="img-container">
+            <div class="choice-item" data-choice="rock">
+                <img src="/img/rock.PNG" alt="Rock Image">
+            </div>
+            <div class="choice-item" data-choice="paper">
+                <img src="/img/paper.PNG" alt="Paper Image">
+            </div>
+            <div class="choice-item" data-choice="scissors">
+                <img src="/img/scissors.PNG" alt="Scissors Image">
+            </div>
+        </div>
+        <p>your choice</p>
+    </div>
+    
+
+    <div class="computer-choice">
+        <div class="img-container">
+            <div id="computer-display">
+                <img src="/img/question-mark.PNG" alt="Computer Thinking" id="computer-image">
+            </div>
+        </div>
+        <p>computer's choice</p>
+    </div>
+
+    <div class="result">
+        <p id="result-text">Make your move!</p>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2025 Robertson Siu</p>
+    </footer>
+
+</body>
+</html>
